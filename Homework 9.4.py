@@ -3,7 +3,7 @@ A = []
 A_reversed = 0
 
 for i in range(N):
-    N_number = int(input("Enter your number: "))
+    N_number = int(input(f"Enter your number #{i + 1}: "))
     A.append(N_number)
     A_reversed = A[::-1]
 
