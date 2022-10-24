@@ -1,7 +1,7 @@
 A = []
 
 for i in range(10):
-    number = int(input("Enter your number: "))
+    number = int(input(f"Enter your number #{i + 1}: "))
     A.append(number)
 
 print(A)
