@@ -6,5 +6,5 @@ for i in range(N):
     A.append(N_numbers)
     A.sort()
 
-print("Минимальное число:", A[0])
-print("Максимальное число:", A[-1])
+print("Minimum:", A[0])
+print("Maximum:", A[-1])
